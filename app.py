@@ -28,8 +28,7 @@ import json
 import pickle as p
  
 # create the Flask app
-modelfile = 'C:/Users/Administrator/Desktop/Devvrat/ModelDeployment/Azure/Data Processing_v03/relativity.pkl'
-rel = p.load(open(modelfile, 'rb'))
+rel = pickle.load(open("relativity.pkl", 'rb'))
 app = Flask(__name__)
  
 # GET requests will be blocked
