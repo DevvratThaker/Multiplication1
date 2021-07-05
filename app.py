@@ -1,19 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 18 16:48:19 2021
-
-@author: administrator
-"""
-
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 14 16:25:35 2021
-
-@author: administrator
-"""
-
-
 from flask import Flask, request
 
 from flask import Flask, request, render_template
